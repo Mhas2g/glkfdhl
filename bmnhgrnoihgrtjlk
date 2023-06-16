@@ -1,0 +1,6 @@
+    for i,v in pairs(game.Workspace:GetChildren()) do
+        if v.Name == "normaldoor" then
+            v.lockpick:FireServer()
+        end
+    end
+end)
